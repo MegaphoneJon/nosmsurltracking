@@ -3,9 +3,8 @@
 require_once 'nosmsurltracking.civix.php';
 
 function nosmsurltracking_civicrm_postProcess($formName, &$form) {
-  if($formName == 'CRM_SMS_Form_Schedule') {
+  if($formName == 'CRM_SMS_Form_Upload') {
     $mailingID = $form->_mailingID;
-    CRM_Core_Error::debug('mailing ID', $mailingID);
     $result = civicrm_api3('Mailing', 'create', array(
       'sequential' => 1,
       'id' => $mailingID,
