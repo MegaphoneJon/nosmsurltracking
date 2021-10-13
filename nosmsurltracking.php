@@ -4,12 +4,7 @@ require_once 'nosmsurltracking.civix.php';
 
 function nosmsurltracking_civicrm_postProcess($formName, &$form) {
   if ($formName == 'CRM_SMS_Form_Upload') {
-    $mailingID = $form->_mailingID;
-    $result = civicrm_api3('Mailing', 'create', array(
-      'sequential' => 1,
-      'id' => $mailingID,
-      'url_tracking' => 0,
-    ));
+    civicrm_api3('Mailing', 'create', ['id' => $form->_mailingID, 'url_tracking' => 0]);
   }
 }
 
