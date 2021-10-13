@@ -1,29 +1,30 @@
 <?xml version="1.0"?>
-<extension key="coop.palantetech.nosmsurltracking" type="module">
+<extension key="nosmsurltracking" type="module">
   <file>nosmsurltracking</file>
   <name>No SMS URL Tracking</name>
   <description>Turns off URL tracking (aka click-through tracking) on mass SMS messages.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Jon Goldberg</author>
-    <email>jon@palantetech.coop</email>
+    <email>jon@megaphonetech.com</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/MegaphoneJon/nosmsurltracking</url>
+    <url desc="Documentation">https://github.com/MegaphoneJon/nosmsurltracking</url>
+    <url desc="Support">https://github.com/MegaphoneJon/nosmsurltracking/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
-  <releaseDate>2016-02-24</releaseDate>
-  <version>1.0</version>
-  <develStage>alpha</develStage>
+  <releaseDate>2021-10-13</releaseDate>
+  <version>1.1</version>
+  <develStage>stable</develStage>
   <compatibility>
     <ver>4.4</ver>
     <ver>4.5</ver>
     <ver>4.6</ver>
     <ver>4.7</ver>
+    <ver>5.42</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments></comments>
   <civix>
     <namespace>CRM/Nosmsurltracking</namespace>
   </civix>
