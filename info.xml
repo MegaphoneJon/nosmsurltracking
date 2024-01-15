@@ -14,14 +14,18 @@
     <url desc="Support">https://github.com/MegaphoneJon/nosmsurltracking/issues</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
-  <releaseDate>2021-10-13</releaseDate>
-  <version>1.1</version>
+  <releaseDate>2024-01-15</releaseDate>
+  <version>1.1.1</version>
   <develStage>stable</develStage>
   <compatibility>
     <ver>5.42</ver>
   </compatibility>
-  <comments></comments>
+  <comments/>
   <civix>
     <namespace>CRM/Nosmsurltracking</namespace>
+    <format>23.02.1</format>
   </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
